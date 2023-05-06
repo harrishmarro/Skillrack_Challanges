@@ -1,0 +1,11 @@
+n=int(input())
+l=list(map(int,input().split()))
+a=n//2
+l1=l[:a]
+print(l1)
+l2=l[a:]
+print(l2)
+l1.sort()
+l2.sort(reverse=True)
+l3=l1+l2
+print(l3)
